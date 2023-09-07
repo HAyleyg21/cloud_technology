@@ -1,0 +1,32 @@
+    *{box-sizing: border-box;}
+        .title{
+    background-color: coral;
+    color: azure;
+    padding: 1em;
+    text-align: center;
+}
+.img1,.img2,.img3, .img4{
+   width: 45% ;
+   margin: 2% ;
+   
+}
+.img1{
+border-radius: 15px; 
+box-shadow: 1px 1px 3px black;
+} 
+
+.img2{
+    border-radius: 50%;
+}
+.img3{
+    border: saddlebrown 10px inset;
+    padding: 1em;
+    background-color: bisque;
+}
+.img4{
+    box-shadow: 0px 0px 5px 2px brown;
+}
+{ .img
+
+
+}
