@@ -1,0 +1,43 @@
+*{box-sizing: border-box;}
+.title{
+    text-align: center;
+    padding: 1em;
+    background-color: burlywood;
+}
+.navHOZ{
+    background-color: burlywood;
+}
+.navHOZ a{
+    color: brown;
+    display: inline-block;
+    padding: 1em 3em;
+    text-decoration: none;
+}
+.navHOZ a:hover{
+    background-color: brown;
+    box-shadow: 0px 0px 3px 1px gray;
+    font-weight: 900;
+    color: aliceblue;
+    
+}
+.navVERTICAL{
+    width: 200px;
+    background-color: black;
+}
+.navVERTICAL a{
+display: block;
+text-align: center;
+padding: 1.5em;
+text-decoration: none;
+color: antiquewhite;
+
+}
+.navVERTICAL a:hover{
+    background-color: burlywood;
+    font-weight: bolder;
+}
+footer{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 1em;
+}
