@@ -1,0 +1,192 @@
+*{box-sizing: border-box;}
+html{
+    scroll-behavior: auto;
+}
+.navbar2{
+    background-color: black;
+    color: burlywood;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+.nav_link{
+    color: whitesmoke;
+    display: inline-block;
+    padding: 1em 2em;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-style: italic;
+}
+.nav_link:hover{
+    color: bisque;
+    background-color: burlywood;
+    font-weight: 900;
+}
+.container{
+    background-color: blanchedalmond;
+    padding: 2%;
+}
+.img_cont2{
+    width: 40%;
+    height: 50%;
+    margin: 2% auto;
+    position: relative;
+}
+/* bottom text*/.bottom{
+    position: absolute;
+    bottom: 1em;
+    left:0.9em ;
+    border: inset white 0.5em;
+    padding: 0.1em 0.1em;
+    background-color: black;
+    opacity:60%;
+    color:whitesmoke;
+    width: 460px;
+    color: wheat
+    
+}
+.p2{
+font: 1em sans-serif;
+color: beige;
+font-size: small;
+}
+/*centered text*/.centered2{
+    position: absolute;
+    text-align: center;
+    font-style: italic;
+    top: 50%;
+    left: 50%;
+    font-size: 3em;
+    font-style: italic;
+    transform: translate(-50%,-50%);
+    color: black;
+    
+}
+/*bottom left text*/.bottom-left{
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+    width: 80% ;
+    color: black;
+    font-style: italic;
+}
+/*top left text*/.top-left{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    width: 70%;
+    color: black;
+    font-style: italic;
+}
+/*top right text*/.top-right{
+    position: absolute;
+    top: 160px;
+    right: 16px;
+    width: 60%;
+    color: black;
+    font-style: italic;
+}
+
+.p{
+    position: absolute,bottom;
+    top: 0%;
+    left: 2%;
+    border: inset black 1em;
+    border-color: blanchedalmond;
+    font-style: italic;
+    font-size: 1.1em;
+}
+.container{
+    position: relative;
+
+}
+.title2{ 
+    text-align: center;
+    position: absolute center;
+    color: black;
+    font-size: larger;
+    font-family: 'Courier New';
+}
+/*centered text*/.centered1{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 1em;
+    font-style: normal;
+    background-color: inherit  ivory;
+    opacity: 60%;
+    box-shadow: gray 10px 10px ;
+    width: 70%;
+    font-size: larger;
+}
+.p1{ 
+    color: wheat;
+    font-style: italic;
+    font-size: medium;
+}
+.book{
+    background-color: red;
+    color: whitesmoke;
+    padding: 0.5em;
+    font-family: 'Gill Sans';
+    box-shadow: inset burlywood;
+    opacity: 0.3em;
+    width: 50%;
+    font: 1em sans-serif;
+    font-size: large;
+    
+
+}
+
+.title3{
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-40%,-70%);
+    color: black;
+    font-size: 0.3em;
+    font-family: 'Times New Roman';
+}
+
+.subtitle{
+    background-color: burlyw;
+    padding: 1em;
+}
+.img_container{
+    width: 80%;
+    padding:3em ;
+    margin: 2em auto;
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.container{
+    position: relative;
+    text-align: center;
+    color: azure;
+}
+
+.invert{
+    filter: invert(70%);
+}
+.blur{
+    filter: blur(5px);
+}
+.sepia{
+    filter: sepia(80%);
+}
+.credit{
+    text-align: center;
+    background-color: burlywood;
+    padding: 1em;
+}
+
+
+
