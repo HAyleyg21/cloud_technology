@@ -1,0 +1,39 @@
+*{box-sizing: border-box;}
+html{
+    scroll-behavior: auto;
+}
+.navbar2{
+    background-color: black;
+    color: burlywood;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%
+
+}
+.imgcontainer1{
+    width: 80%;
+    height: 80%;
+   
+}
+.card{
+    width: 20%;
+    height: 20%;
+    position: relative;
+
+}
+.cardMsg{
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    right: 2%;
+    text-align: top;
+    color: antiquewhite;
+    border:  ridge 12px burlywood;
+    
+}
+img{
+    width: 4500px;
+    height: auto;
+    
+}
