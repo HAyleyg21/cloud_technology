@@ -6,7 +6,7 @@ body{
     background-color:  blanchedalmond;
 }
 .navbar2{
-    background-color: transparent;
+    background-color: bisque;
     color: burlywood;
     position: fixed;
     top: 0%;
@@ -14,11 +14,12 @@ body{
     right: 0%;
 }
 .nav_link{
-    color: whitesmoke;
+    color: black;
     display: inline-block;
     padding: 1em 2em;
     font-size: 1.3em;
     text-decoration: none;
+    font-style: italic;
 }
 .nav_link:hover{
     color: bisque;
@@ -28,7 +29,7 @@ body{
 .imgcontainer1{
     width: 50%;
     margin: 2% auto;
-    border: inset burlywood 1em;
+    border: none burlywood 1em;
     position: relative;
    
 }
@@ -38,18 +39,21 @@ body{
 }
 .cardMsg{
     position: absolute;
-    top: 0.5%;
+    top: 0%;
     left: 2%;
     right: 2%;
     text-align: center;
-    color: black ;
+    color: black;
     background-color: burlywood;
     border: none 10px burlywood;
+    padding: 1em 1em;
     
 }
 img{
-    width: 600px;
-    height: auto;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 99%;
 }
 
 .img1 {
