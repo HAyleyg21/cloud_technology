@@ -24,7 +24,7 @@ body{
     font-style: italic;
 }
 .nav_link:hover{
-    color: bisque;
+    color: blanchedalmond;
     background-color: burlywood;
     font-weight: 900;
 }
@@ -51,10 +51,7 @@ body{
     padding: 2%;
 }
 .cardMsg{
-    position: absolute;
-    top: 0%;
-    left: 2%;
-    right: 2%;
+margin-top: 2em;
     text-align: center;
     color: black;
     background-color: burlywood;
@@ -66,16 +63,24 @@ img{
     display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 99.99%;
+  width: 99.99999999999999999999%;
 }
 .p1{
-    position: absolute;
     text-align: center;
     color: black;
     background-color: burlywood;
     border: none 10px burlywood;
     padding: 1em 0.5em;
     font-family: sans-serif;
+}
+.cardMsg1{
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    right: 2%;
+    text-align: center;
+    
+    
 }
 
 .img1{
