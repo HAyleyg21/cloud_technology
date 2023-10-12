@@ -1,0 +1,133 @@
+*{box-sizing: border-box;}
+html{
+    scroll-behavior: auto;
+}
+body{
+    background-color:  blanchedalmond;
+}
+/*-----NAVIGATION TABS-----*/
+.navbar2{
+    background-color: bisque;
+    color: burlywood;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    display: inline-block;
+}
+.nav_link{
+    color: black;
+    display: inline-block;
+    padding: 1em 2em;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-style: italic;
+}
+.nav_link:hover{
+    color: bisque;
+    background-color: burlywood;
+    font-weight: 900;
+}
+
+.imgcontainer1{
+    width: 50%;
+    margin: 2% auto;
+    border: none burlywood 1em;
+    position: relative;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 29%;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 0.2em;
+    overflow: hidden;
+    margin: 2%;
+    position: relative;}
+.intro{
+    background-color: blanchedalmond;
+    padding: 2%;
+}
+.cardMsg{
+    position: absolute;
+    top: 0%;
+    left: 2%;
+    right: 2%;
+    text-align: center;
+    color: black;
+    background-color: burlywood;
+    border: none 10px burlywood;
+    padding: 1em 1em;
+    
+}
+img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 99.99%;
+}
+.p1{
+    position: absolute;
+    text-align: center;
+    color: black;
+    background-color: burlywood;
+    border: none 10px burlywood;
+    padding: 1em 0.5em;
+    font-family: sans-serif;
+}
+
+.img1{
+   width: 50px;
+   height: auto;
+   display: inline-block;
+}
+.img2{
+    width: 300px;
+   height: auto;
+   display: block;
+}
+.id2{
+    position: relative;
+    text-align: center;
+    color: black;
+    background-color: burlywood;
+    border: none 10px burlywood;
+    padding: 2em 1em;
+    font-size: 1.4em;
+    font-style: italic;
+}
+.cardtitle{
+    padding:  0.5em 1em;
+    color: burlywood;
+}
+.cardIntro{
+    padding: 0.5em 1em;
+    color: rgb(100, 100, 100);
+    margin-bottom: 5em;
+}
+.cardLink{
+ position: absolute;
+ bottom: 0%;
+ background-color: burlywood;
+ color: tan;
+ display: inline-block;
+ left: 0%;
+ right: 0%;
+ padding: 1em;
+ text-align: center;
+}
+.cardLink:hover{
+    background-color: blanchedalmond;
+    color: burlywood;
+    text-decoration: none;
+    font-weight: bolder;
+}
+/*----- Footer-----*/
+ .credit{
+    text-align: center;
+    background-color: burlywood;
+    padding: 1em;
+}
+
