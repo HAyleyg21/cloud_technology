@@ -131,6 +131,7 @@ img{
    display: inline-block;
    border-radius: 2em; 
    margin-top: 1em;
+   filter: blur(1px);
 }
 .img4{
     width: 415px;
@@ -138,13 +139,15 @@ img{
     display: inline-block;
     border-radius: 2em; 
     margin-top: 1em;  
+ filter: blur(1px);
 }
 .img5{
     width: 420px;
     height: 633px;
     display: inline-block;
     border-radius: 2em; 
-    margin-top: 1em;  
+    margin-top: 1em; 
+    filter: blur(1px); 
 }
 .img6{
     width: 430px;
@@ -178,9 +181,7 @@ width: 320px;
        height: 400px;
        display: block;
     }
- .blur1{
-    filter: blur(100px);
- }
+
 
 .id2{
     position: relative;
