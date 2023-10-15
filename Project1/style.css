@@ -1,0 +1,301 @@
+*{box-sizing: border-box;}
+html{
+    scroll-behavior: auto;
+}
+body{
+    background-color:  blanchedalmond;
+}
+/*-----NAVIGATION TABS-----*/
+.navbar2{
+    background-color: bisque;
+    color: burlywood;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    display: inline-block;
+    border-right: 1px solid black;
+}
+.nav_link{
+    color: black;
+    display: inline-block;
+    padding: 1em 2em;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-style: italic;
+}
+.nav_link:hover{
+    color: blanchedalmond;
+    background-color: burlywood;
+    font-weight: 900;
+}
+
+.imgcontainer1{
+    width: 50%;
+    margin: 2% auto;
+    border: none burlywood 1em;
+    position: relative;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 29%;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 0.2em;
+    overflow: hidden;
+    margin: 2%;
+    position: relative;
+}
+.intro{
+width: 88%;
+box-shadow: 2px 2px 5px burlywood;
+position: relative;
+border-radius: 10px;
+overflow: hidden;
+margin: 5em;
+transition: ease 3s;
+}
+.cardMsg{
+    text-align: center;
+    font-size: xx-large;
+    text-align: center;
+    color: black;
+    font-family: 'Gill Sans';
+    transition: ease-in-out 2s;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    right: 2%;
+    text-align: center;
+    color:black;
+}
+.cardMsg:hover{
+    font-family: 'Courier New';
+    color: bisque;
+    text-shadow: 1px 1px 5px blanchedalmond;
+}
+.intro:hover{
+    box-shadow: 0px 0px 5px 1px navajowhite;
+    width: 50.2%;
+}
+.intro:hover .cardMsg{
+    color: burlywood;
+    text-shadow: 1px 1px 3px wheat;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.p1{
+    text-align: center;
+    color: black;
+    background-color: burlywood;
+    border: none 10px burlywood;
+    padding: 1em 0.5em;
+    font-family: sans-serif;
+}
+.cardMsg1{
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    right: 2%;
+    text-align: center;
+}
+.cardmsg2{
+    margin-bottom: 0.1em;
+    text-align: center;
+    color: black;
+    background-color: transparent;
+    border: none 10px burlywood;
+    padding: 1em 0.5em;
+    font-size: xx-large;
+}
+
+.img1{
+   width: 50px;
+   height: auto;
+   display: inline-block;
+}
+.img2{
+    width: 320px;
+   height: 510px;
+   display: block;
+}
+.img3{
+    width: 420px;
+   height: auto;
+   display: inline-block;
+   border-radius: 2em; 
+   margin-top: 1em;
+}
+.img4{
+    width: 415px;
+    height: 560px;
+    display: inline-block;
+    border-radius: 2em; 
+    margin-top: 1em;  
+}
+.img5{
+    width: 420px;
+    height: 633px;
+    display: inline-block;
+    border-radius: 2em; 
+    margin-top: 1em;  
+}
+.img6{
+    width: 430px;
+    height: 625px;
+    display: inline-block;
+    border-radius: 2em; 
+    margin-top: 1em;  
+}
+.img7{
+    width: 300px;
+   height: 405px;
+   display: block;
+}
+.img8{
+    width: 300px;
+   height: 400px;
+   display: block;
+}
+.img9{
+    width: 320px;
+    height: 510px;
+    display: block;
+}
+.img10{
+width: 320px;
+   height: 510px;
+   display: block;
+}
+.img11{
+    width: 315px;
+       height: 400px;
+       display: block;
+    }
+ .blur1{
+    filter: blur(100px);
+ }
+
+.id2{
+    position: relative;
+    text-align: center;
+    color: black;
+    background-color: burlywood;
+    border: initial 10px burlywood;
+    padding: 2em 1em;
+    font-size: 2em;
+    font-style: italic;
+}
+.id3{
+    margin-top: 1em;
+    margin-bottom: 0em;
+    margin: 100px auto;
+    position: relative;
+    text-align: center;
+    color: black;
+    width: max-content;
+    font-size: 72px;
+    cursor: pointer;
+ }
+.id3::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 4px;
+    width: 100%;
+    left: 0;
+    background-color: black;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out ;
+    transform: scaleX(0);
+ }
+.id3:hover::after{
+     transform: scaleX(1); 
+    }
+.cardtitle{
+    padding:  0.5em 1em;
+    color: burlywood;
+}
+button{
+    background-color: navajowhite;
+    font-family: sans-serif 1em;
+    cursor: pointer;
+}
+.cardIntro{
+    padding: 0.5em 1em;
+    color: rgb(100, 100, 100);
+    margin-bottom: 5em;
+}
+.cardLink{
+ position: absolute;
+ bottom: 0%;
+ background-color: burlywood;
+ color: tan;
+ display: inline-block;
+ left: 0%;
+ right: 0%;
+ padding: 1em;
+ text-align: center;
+}
+.cardLink:hover{
+    background-color: blanchedalmond;
+    color: burlywood;
+    text-decoration: none;
+    font-weight: bolder;
+}
+table, th, td {
+    border: 1px solid;
+  }
+  table {
+    width: 100%;
+    height: 50%;
+    margin-top: 0.1em;
+  }
+
+  /*----- Animations----- *\
+
+ .table1{
+margin: 100px auto;
+position: relative;
+text-align: center;
+color: black;
+width: max-content;
+font-size: 72px;
+cursor: pointer;
+}
+.table1::after{
+content: "";
+position: absolute;
+bottom: -5px;
+height: 4px;
+width: 100%;
+left: 0;
+background-color: black;
+transition: 0.3s;
+transition-timing-function: ease-in-out ;
+transform: scaleX(0);
+}
+.table:hover::after{
+    transform: scaleX(1); 
+}
+
+}
+/*----- Footer-----*/
+ .credit{
+    text-align: center;
+    background-color: burlywood;
+    padding: 1em;
+}
+.credit2{
+    text-align: center;
+    background-color: burlywood;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
